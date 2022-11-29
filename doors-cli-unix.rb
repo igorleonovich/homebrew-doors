@@ -1,4 +1,4 @@
-class Doors < Formula
+class DoorsCliUnix < Formula
   desc "D O O R S CLI"
   homepage "https://github.com/igorleonovich/doors-cli-unix"
   url "https://github.com/igorleonovich/doors-cli-unix.git"
