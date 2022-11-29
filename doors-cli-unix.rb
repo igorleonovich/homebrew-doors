@@ -7,6 +7,7 @@ class DoorsCliUnix < Formula
     system "swift", "build",
         "--configuration", "release",
         "--disable-sandbox"
-    bin.install '.build/release/DoorsClient'
+    system "mv", ".build/release/DoorsClient", "doors"
+    bin.install 'doors'
   end
 end
